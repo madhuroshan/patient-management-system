@@ -8,6 +8,8 @@ import java.util.UUID;
 
 @Repository
 public interface PatientRepository extends JpaRepository<Patient, UUID> {
-    // This interface will extend JpaRepository or CrudRepository to provide CRUD operations
-    // for the Patient entity. It can also include custom query methods if needed.
+    // Method to check if a patient exists by email
+    boolean existsByEmail(String email);
+
+    boolean existsByEmailAndIdNot(String email, UUID id);
 }
