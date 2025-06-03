@@ -1,4 +1,4 @@
-package com.pm.billingservice;
+package com.pm.billing_service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
