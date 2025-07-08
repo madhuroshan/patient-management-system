@@ -8,10 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="patient-service" />
         <module name="billing-service" />
+        <module name="billingservice" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="billingservice" target="21" />
+      <module name="billing-service" target="21" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
